@@ -1,0 +1,64 @@
+.Sign{
+    background: url('https://mebincdn.themebin.com/1664271580523.jpg')    ;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+.SignBox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+}
+.Heading{
+    margin-bottom: 5px;
+}
+.Email{
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 5px;   
+}
+
+.Pass{
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 5px;
+
+
+}
+
+.SignButton{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}

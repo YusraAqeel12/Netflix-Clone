@@ -1,0 +1,103 @@
+.Login{
+    background: url('https://mebincdn.themebin.com/1664271580523.jpg')  , 
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      );
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.LoginImage{
+    object-fit: contain;
+    position: fixed;
+    left: 10px;
+    top: 20px;
+}
+.LoginButton{
+    position: fixed;
+    right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #e50914 ;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    top: 20px;
+
+}
+.LoginButton:hover{
+    cursor: pointer;
+}
+.LoginBody{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+.FirstText{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.SecondText{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+.ThirdText{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Input{
+    height: 30px;
+    max-width: 600px;
+    width: 50%;
+    padding: 10px;
+    outline: gray;
+    background: transparent;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(
+        to bottom , 
+        rgba(0, 0, 0, 0.409) 0%,
+        rgba(0, 0, 0, 0.886) 100%
+    );
+
+}
+.StartButton{
+    width: 200px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.StartButton:hover{
+    background-color: rgb(193,17,25);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

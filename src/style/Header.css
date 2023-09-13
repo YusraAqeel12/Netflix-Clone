@@ -1,0 +1,32 @@
+.header{
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    background-color: transparent;
+
+}
+.scroll{
+   color: #111;
+    transition:  0.5s;
+    transition-timing-function: ease-in;
+
+}
+.Logo{
+    position: fixed;
+    object-fit: contain;   
+     left: 5px;
+
+
+}
+.Account{
+    position: fixed; 
+   right: 5px;
+
+    object-fit: contain;
+
+}
+
